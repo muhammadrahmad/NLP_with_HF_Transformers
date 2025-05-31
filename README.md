@@ -113,7 +113,7 @@ The "fill-mask" model accurately predicts "Paris" as the most likely word to fil
 ```
 # TODO :
 ner = pipeline("ner", model="dbmdz/bert-large-cased-finetuned-conll03-english", grouped_entities=True)
-ner("Elon Musk is the CEO of Tesla and SpaceX, both located in California.")
+ner("My name is Muhammmad Rahmad, I am a teacher at SDIT An Nahl in Seri Kuala Lobam")
 ```
 
 Result : 
